@@ -7,8 +7,8 @@
  * @types: a list of arg type A
  * @buffer: print buffer
  * @flags: available and active flags
- * @width: size of output 
- * @precision: specifier handler for precision 
+ * @width: size of output
+ * @precision: specifier handler for precision
  * @size: specifier handler for size
  * Return: amount of printed characters
  */
@@ -25,8 +25,8 @@ int print_char(va_list types, char buffer[],
  * @types: a list of arg type A
  * @buffer: print buffer
  * @flags: available and active flags
- * @width: size of output 
- * @precision: specifier handler for precision 
+ * @width: size of output
+ * @precision: specifier handler for precision
  * @size: specifier handler for size
  * Return: amount of printed characters
  */
@@ -77,13 +77,13 @@ int print_string(va_list types, char buffer[],
 /******* TOOLS FOR PRINT PERCENTAGE SIGNS ******/
 /**
  * print_percent - Prints a percent sign
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @types: a list of arg type A
+ * @buffer: print buffer
+ * @flags: available and active flags
+ * @width: size of output
+ * @precision: specifier handler for precision
+ * @size: specifier handler for size
+ * Return: amount of printed characters
  */
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -103,8 +103,8 @@ int print_percent(va_list types, char buffer[],
  * @types: a list of arg type A
  * @buffer: print buffer
  * @flags: available and active flags
- * @width: size of output 
- * @precision: specifier handler for precision 
+ * @width: size of output
+ * @precision: specifier handler for precision
  * @size: specifier handler for size
  * Return: amount of printed characters
  */
@@ -147,8 +147,8 @@ int print_int(va_list types, char buffer[],
  * @types: a list of arg type A
  * @buffer: print buffer
  * @flags: available and active flags
- * @width: size of output 
- * @precision: specifier handler for precision 
+ * @width: size of output
+ * @precision: specifier handler for precision
  * @size: specifier handler for size
  * Return: amount of printed characters
  */
