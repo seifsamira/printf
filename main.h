@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef ____MAIN____
+#define ____MAIN____
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -114,6 +114,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAIN_H */
-
-
+#endif
