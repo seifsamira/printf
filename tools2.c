@@ -6,8 +6,8 @@
  * @types: a list of arg type A
  * @buffer: print buffer
  * @flags: available and active flags
- * @width: size of output 
- * @precision: specifier handler for precision 
+ * @width: size of output
+ * @precision: specifier handler for precision
  * @size: specifier handler for size
  * Return: amount of printed characters
  */
@@ -58,8 +58,8 @@ int print_pointer(va_list types, char buffer[],
  * @types: a list of arg type A
  * @buffer: print buffer
  * @flags: available and active flags
- * @width: size of output 
- * @precision: specifier handler for precision 
+ * @width: size of output
+ * @precision: specifier handler for precision
  * @size: specifier handler for size
  * Return: amount of printed characters
  */
@@ -98,8 +98,8 @@ int print_non_printable(va_list types, char buffer[],
  * @types: a list of arg type A
  * @buffer: print buffer
  * @flags: available and active flags
- * @width: size of output 
- * @precision: specifier handler for precision 
+ * @width: size of output
+ * @precision: specifier handler for precision
  * @size: specifier handler for size
  * Return: amount of printed characters
  */
@@ -141,8 +141,8 @@ int print_reverse(va_list types, char buffer[],
  * @types: a list of arg type A
  * @buffer: print buffer
  * @flags: available and active flags
- * @width: size of output 
- * @precision: specifier handler for precision 
+ * @width: size of output
+ * @precision: specifier handler for precision
  * @size: specifier handler for size
  * Return: amount of printed characters
  */
